@@ -4,11 +4,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-        <title>Archives | 冷卉</title>
-        <meta name="author" content="John Doe">
+        <title>Archives | 冷卉の小家</title>
+        <meta name="author" content="冷卉">
         <meta name="description" content="">
         <meta name="keywords" content="">
-        <link rel="icon" href="">
+        <link rel="icon" href="/images/head.jpg">
         <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
         <script src="https://cdn.staticfile.org/font-awesome/6.1.1/js/all.min.js"></script>
         
@@ -30,17 +30,12 @@
 <nav id="menu">
     <div class="desktop-menu">
         <a href="/">
-            <span class="title">冷卉</span>
+            <span class="title">冷卉の小家</span>
         </a>
         
         <a href="/">
             <i class="fa-solid fa-house fa-fw"></i>
             <span>&ensp;home</span>
-        </a>
-        
-        <a href="/about">
-            <i class="fa-solid fa-id-card fa-fw"></i>
-            <span>&ensp;about</span>
         </a>
         
         <a href="/archives">
@@ -63,7 +58,7 @@
         <div class="curtain" @click="menu_show = !menu_show" v-show="menu_show"></div>
         <div :class="'title'" @click="menu_show = !menu_show">
             <i class="fa-solid fa-bars fa-fw"></i>
-            <span>&emsp;冷卉</span>
+            <span>&emsp;冷卉の小家</span>
         </div>
         <transition name="slide">
         <div class="items" v-show="menu_show">
@@ -74,15 +69,6 @@
                         <i class="fa-solid fa-house fa-fw"></i>
                     </div>
                     <div style="min-width: 100px; max-width: 150%; width: 20%">home</div>
-                </div>
-            </a>
-            
-            <a href="/about">
-                <div class="item">
-                    <div style="min-width: 20px; max-width: 50px; width: 10%">
-                        <i class="fa-solid fa-id-card fa-fw"></i>
-                    </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">about</div>
                 </div>
             </a>
             
@@ -141,11 +127,11 @@
 <footer id="footer">
     <div class="footer-wrap">
         <div>
-            © 20xx - 2022 冷卉
+            © 20xx - 2022 冷卉の小家
             <span class="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
-            @John Doe
+            @冷卉
         </div>
         <div></div>
         <div>Based on the <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo Engine</a> & <a
