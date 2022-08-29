@@ -175,101 +175,6 @@
 <script>
     var clientID = "d605cff7de447780c166", clientSecret = "31632a5f44f8f8f606bbccaa818560bb3ab3949d";
     
-    if (window.location.host == "0") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "1") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "2") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "3") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "4") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "5") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "6") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "7") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "8") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "9") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "10") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "11") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "12") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "13") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "14") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "15") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "16") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "17") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
-    if (window.location.host == "18") {
-        clientID = "";
-        clientSecret = "";
-    }
-    
     const gitalk = new Gitalk({
         clientID: clientID,
         clientSecret: clientSecret,
@@ -279,8 +184,6 @@
         language: "zh-CN",
         id: location.pathname,
         distractionFreeMode: false,
-        
-        proxy: "https://lenghui.herokuapp.com/https://github.com/login/oauth/access_token"
         
     })
     gitalk.render("gitalk-container")
