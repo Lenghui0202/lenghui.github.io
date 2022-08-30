@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+        <title>关于我 | 冷卉の小家</title>
+        <meta name="author" content="冷卉">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link rel="icon" href="/images/head.jpg">
+        <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
+        <script src="https://cdn.staticfile.org/font-awesome/6.1.1/js/all.min.js"></script>
+        
+        <link rel="stylesheet" href="/css/fonts.min.css">
+        <link rel="stylesheet" href="/css/particlex.css">
+        
+        <script src="https://cdn.staticfile.org/vue/3.2.33/vue.global.prod.min.js"></script>
+    <meta name="generator" content="Hexo 6.2.0"></head>
+    <body>
+        <div id="loading" style="height:100vh;width:100vw;position:fixed;display:flex;z-index:200;justify-content:space-between;background:#fff;transition:opacity 0.3s ease-out"><div style="position:fixed;height:100vh;width:100vw;display:flex;justify-content:center;align-items:center"><div id="loadcontent" style="width:50vmin;height:50vmin;padding:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;border:solid 10px #a3ddfb;text-align:center"><div><h2>LOADING...</h2><p style="word-break:keep-all">加载过慢请开启缓存(浏览器默认开启)</p><div><img alt="loading" src="/loading.gif"></div></div></div></div></div>
+        <div id="layout">
+            <i data-fa-symbol="calendar-solid" class="fa-solid fa-calendar fa-fw"></i>
+            <i data-fa-symbol="bookmark-solid" class="fa-solid fa-bookmark fa-fw"></i>
+            <i data-fa-symbol="tags-solid" class="fa-solid fa-tags fa-fw"></i>
+            <transition name="into">
+                <div v-show="show_page" style="display: -not-none">
+                    <div id="menu_show">
+                         
+<nav id="menu">
+    <div class="desktop-menu">
+        <a href="/">
+            <span class="title">冷卉の小家</span>
+        </a>
+        
+        <a href="/">
+            <i class="fa-solid fa-house fa-fw"></i>
+            <span>&ensp;首页</span>
+        </a>
+        
+        <a href="/about">
+            <i class="fa-solid fa-address-card fa-fw"></i>
+            <span>&ensp;关于我</span>
+        </a>
+        
+        <a href="/archives">
+            <i class="fa-solid fa-box-archive fa-fw"></i>
+            <span>&ensp;归档</span>
+        </a>
+        
+        <a href="/categories">
+            <i class="fa-solid fa-bookmark fa-fw"></i>
+            <span>&ensp;分类</span>
+        </a>
+        
+        <a href="/tags">
+            <i class="fa-solid fa-tags fa-fw"></i>
+            <span>&ensp;标签</span>
+        </a>
+        
+    </div>
+    <div :class="'phone-menu ' + menu_show" id="phone-menu">
+        <div class="curtain" @click="menu_show = !menu_show" v-show="menu_show"></div>
+        <div :class="'title'" @click="menu_show = !menu_show">
+            <i class="fa-solid fa-bars fa-fw"></i>
+            <span>&emsp;冷卉の小家</span>
+        </div>
+        <transition name="slide">
+        <div class="items" v-show="menu_show">
+            
+            <a href="/">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-house fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">首页</div>
+                </div>
+            </a>
+            
+            <a href="/about">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-address-card fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">关于我</div>
+                </div>
+            </a>
+            
+            <a href="/archives">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-box-archive fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">归档</div>
+                </div>
+            </a>
+            
+            <a href="/categories">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-bookmark fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">分类</div>
+                </div>
+            </a>
+            
+            <a href="/tags">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-tags fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">标签</div>
+                </div>
+            </a>
+            
+        </div>
+        </transition>
+    </div>
+</nav>
+                    </div>
+                    <div id="main">
+                        
+<div class="article">
+    <div>
+        <h1>关于我 </h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
+            </span>
+            2022/8/30
+        </span>
+        
+        
+    </div>
+    <div class="content" v-pre>
+        <h1 id="👏欢迎大家来到我的博客"><a href="#👏欢迎大家来到我的博客" class="headerlink" title="👏	欢迎大家来到我的博客"></a>👏	欢迎大家来到我的博客</h1><h4 id="热爱生活，总会使你受益良多。"><a href="#热爱生活，总会使你受益良多。" class="headerlink" title="热爱生活，总会使你受益良多。"></a>热爱生活，总会使你受益良多。</h4><hr>
+<h2 id="👦自我介绍"><a href="#👦自我介绍" class="headerlink" title="👦	自我介绍"></a>👦	<strong>自我介绍</strong></h2><h4 id="我，冷卉-高冷"><a href="#我，冷卉-高冷" class="headerlink" title="我，冷卉   (高冷)"></a>我，冷卉   (高冷)</h4><hr>
+<h2 id="📔内容"><a href="#📔内容" class="headerlink" title="📔	内容"></a>📔	<strong>内容</strong></h2><h4 id="1-学习笔记"><a href="#1-学习笔记" class="headerlink" title="1.学习笔记"></a>1.学习笔记</h4><h4 id="2-分享资源"><a href="#2-分享资源" class="headerlink" title="2.分享资源"></a>2.分享资源</h4><h4 id="3-踩坑记录"><a href="#3-踩坑记录" class="headerlink" title="3.踩坑记录"></a>3.踩坑记录</h4><h4 id="4-其他"><a href="#4-其他" class="headerlink" title="4.其他"></a>4.其他</h4><hr>
+<h2 id="💪技能"><a href="#💪技能" class="headerlink" title="💪	技能"></a>💪	<strong>技能</strong></h2><h5 id="·-Vue-2-x2F-3"><a href="#·-Vue-2-x2F-3" class="headerlink" title="· Vue 2&#x2F;3"></a>· Vue 2&#x2F;3</h5><h5 id="·-uni-app"><a href="#·-uni-app" class="headerlink" title="· uni-app"></a>· uni-app</h5><h5 id="·-JAVA-在学习"><a href="#·-JAVA-在学习" class="headerlink" title="· JAVA(在学习)"></a>· JAVA(在学习)</h5><h5 id="·-Node-js-在学习"><a href="#·-Node-js-在学习" class="headerlink" title="· Node.js(在学习)"></a>· Node.js(在学习)</h5><h6 id="ps：目前会的技能不多，正在努力学习中"><a href="#ps：目前会的技能不多，正在努力学习中" class="headerlink" title="ps：目前会的技能不多，正在努力学习中"></a>ps：目前会的技能不多，正在努力学习中</h6><hr>
+<h2 id="💖其他账号"><a href="#💖其他账号" class="headerlink" title="💖	其他账号"></a>💖	其他账号</h2><table>
+<thead>
+<tr>
+<th align="center">网站</th>
+<th align="center">名称</th>
+<th>ps</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Github</td>
+<td align="center">Lenghui0202</td>
+<td><a target="_blank" rel="noopener" href="https://github.com/Lenghui0202">https://github.com/Lenghui0202</a></td>
+</tr>
+<tr>
+<td align="center">QQ</td>
+<td align="center">冷卉（3070635964）</td>
+<td>没有连接</td>
+</tr>
+<tr>
+<td align="center">E-mail</td>
+<td align="center"><a href="mailto:&#121;&#117;&#x6e;&#x31;&#55;&#56;&#51;&#57;&#x38;&#x31;&#x39;&#x37;&#51;&#56;&#64;&#49;&#x36;&#51;&#x2e;&#x63;&#111;&#109;">&#121;&#117;&#x6e;&#x31;&#55;&#56;&#51;&#57;&#x38;&#x31;&#x39;&#x37;&#51;&#56;&#64;&#49;&#x36;&#51;&#x2e;&#x63;&#111;&#109;</a></td>
+<td>(可以发送内容给我呦)</td>
+</tr>
+</tbody></table>
+
+    </div>
+    
+</div>
+                         
+<footer id="footer">
+    <div class="footer-wrap">
+        <div>
+            © 20xx - 2022 冷卉の小家
+            <span class="footer-icon">
+                <i class="fa-solid fa-font-awesome fa-fw"></i>
+            </span>
+            @冷卉
+        </div>
+        <div></div>
+        <div>Based on the <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo Engine</a> & <a
+                target="_blank" rel="noopener" href="https://github.com/argvchs/hexo-theme-particlex">ParticleX Theme</a></div>
+        
+    </div>
+</footer>
+                    </div>
+                </div>
+            </transition>
+            <div id="img_show">
+                <img id="img_content" alt="img_show">
+            </div>
+        </div>
+        <script src="https://cdn.staticfile.org/highlight.js/11.5.1/highlight.min.js"></script>
+        <script src="/js/particlex.js"></script>
+        <script src="/js/showimg.js"></script>
+        
+
+    </body>
+</html>
